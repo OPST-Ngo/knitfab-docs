@@ -672,7 +672,6 @@ docker save ${registry_uri}/news-classification-evaluate:v1.0 | \
 > [!Note]
 > 
 > To ensure the evaluation dynamically recognizes the output model from the training process, we will *not* define the `in/model` within the configuration file. Instead, we will explicitly define `in/model` within the Plan YAML template.
-
   - resources: 
   Define the required CPU, Memory, and GPU resources
 
