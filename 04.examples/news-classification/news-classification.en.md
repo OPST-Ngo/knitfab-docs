@@ -261,8 +261,6 @@ self.save_results()
 
 This section presents an evaluation pipeline using an LLM to assess a fine-tuned news classification model. The `TestGPT2Model` class in `scripts/evaluate/evaluate.py` processes test cases, applies a category precision metric, and generates performance reports. This automated approach ensures consistent benchmarking and helps refine model accuracy.
 
-This section presents an evaluation pipeline using an LLM to assess a fine-tuned news classification model. The `TestGPT2Model` class processes test cases, applies a category precision metric, and generates performance reports. This automated approach ensures consistent benchmarking and helps refine model accuracy.
-
 ### 1. Parse Arguments
 
 The `parse_arguments` function handles command-line arguments for configuring the evaluation process. Users can specify parameters to override default settings, ensuring flexibility in model evaluation.
@@ -870,4 +868,8 @@ knit run stop --fail ${run_id}
 - **Deactivate the old Plan:** Follow the instructions in "To Deactivate a Plan" under [Step 5: Clean Up](#step-5-clean-up).
 - **Apply a new Plan:** Refer to the relevant section based on the type of training you're doing:
   - [Step 3: Fine-tuning.](#step-3-fine-tuning)
+<<<<<<< HEAD
   - [Step 4: LLM-as-a-judge evaluation.](#step-4-llm-as-a-judge-evaluation)
+=======
+  - [Step 4: LLM-as-a-judge evaluation.](#step-4-llm-as-a-judge-evaluation)
+>>>>>>> fd4396af9a5f1021f13f9efade628702ee9822d0
